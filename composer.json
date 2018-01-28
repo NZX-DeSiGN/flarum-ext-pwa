@@ -1,0 +1,35 @@
+{
+    "name": "nzx-design/flarum-ext-pwa",
+    "description": "A Flarum progressive web app extension",
+    "type": "flarum-extension",
+    "keywords": ["pwa"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NZX-DeSiGN",
+            "email": "nicobrobst@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nzx-design/core/issues",
+        "source": "https://github.com/nzx-design/flarum-ext-pwa"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "NZX\\Pwa\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Progressive Web APP",
+            "icon": {
+                "name": "mobile",
+                "backgroundColor": "#212121",
+                "color": "#F44336"
+            }
+        }
+    }
+}
